@@ -1,0 +1,11 @@
+What is a Sprite? A Sprite is a 2D graphic object obtained from a bitmap image.
+It's a game aspect/element. They are the building blocks for the games we'll be working on.
+
+Everything in hierarchy is a game object.
+Double click on game object to go directly to it.
+The hierarchy contains instances of objects (a copy).
+
+By default, objects go on the zero x-axis, can toggle between 2D and 3D.
+in 3D, moving is like in cinema 4D
+
+-------------------------------------------
