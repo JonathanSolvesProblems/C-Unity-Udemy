@@ -6,6 +6,11 @@ using UnityEngine;
 public class State : ScriptableObject
 {
     [TextArea(10,14)][SerializeField] string storyText; // TextArea(starting minumum, maximum can go with enter key)
+
+    public string GetStateStory()
+    {
+        return storyText;
+    }
 }
 
 /* 
