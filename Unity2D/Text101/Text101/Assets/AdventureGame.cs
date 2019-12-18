@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; // user interface namespace
@@ -29,6 +30,25 @@ public class AdventureGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+    }
+
+    private void ManageState()
+    {
+        // throw new NotImplementedException();
+
+        var nextStates = state.GetNextStates(); // if variable declared and initialized, can use var as a shortcut, since compiler knows that it is State[] in this case
+        if (Input.GetKeyDown(KeyCode.Alpha1)) // alpha1 is 1 on keyboard, do else if, so cant click button 1 and 2 at the same time
+        {
+            state = nextStates[0];
+        } else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            state = nextStates[1];
+        } else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            state = nextStates[2];
+        }
+
+        textComponent.text = state.GetStateStory(); // calling corresponding text component based on current state.
     }
 }
