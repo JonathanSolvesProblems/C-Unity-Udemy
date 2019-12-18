@@ -52,3 +52,5 @@ public class AdventureGame : MonoBehaviour
         textComponent.text = state.GetStateStory(); // calling corresponding text component based on current state.
     }
 }
+
+// can open game story design in draw.io

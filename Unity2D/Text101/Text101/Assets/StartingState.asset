@@ -16,3 +16,6 @@ MonoBehaviour:
     is no way back and there is a swarm of an army infront of you.\r\n\r\nWhat do
     you do?\r\n\r\n1. Do you want to join your comrades and fight your way to victory...\r\nor...\r\n2.
     Hide in the forest during the war..."
+  nextStates:
+  - {fileID: 11400000, guid: 8451bec5e392d6f4f8a6b286b98e1c87, type: 2}
+  - {fileID: 11400000, guid: 2792b27ca43752148b66809c151a0d4c, type: 2}

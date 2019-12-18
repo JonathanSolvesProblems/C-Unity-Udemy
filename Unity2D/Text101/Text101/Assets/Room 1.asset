@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe8077861ea16d4f966391ba0351d4d, type: 3}
   m_Name: Room 1
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: I am in Room 1
+  nextStates:
+  - {fileID: 11400000, guid: 2792b27ca43752148b66809c151a0d4c, type: 2}
+  - {fileID: 11400000, guid: 79f0325ccd57ae543a5500ebfd3dac36, type: 2}
