@@ -53,4 +53,4 @@ public class AdventureGame : MonoBehaviour
     }
 }
 
-// can open game story design in draw.io
+// can open game story design in draw.io - A and B are different story lines
